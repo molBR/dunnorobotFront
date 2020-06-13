@@ -12,8 +12,12 @@ class App extends Component {
     return(
       <div className="App">
         <Provider store={store}>
-          <Form />
           <Text />
+          <Form />
+          <div class="footerinfo">
+            Designed by <a href="https://www.twitch.tv/codinggiantcodes">
+               CodingGiantCodes</a>
+          </div>
         </Provider>
       </div> 
     );

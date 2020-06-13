@@ -4,8 +4,10 @@ import { connect } from 'react-redux';
 
 const Text = ({ Text }) => (
 
-     
-    <h1>{Text}</h1>
+    <div class="TextClass">
+        <h1>{Text}</h1>
+    </div>
+    
 
 );
 
